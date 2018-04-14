@@ -1,0 +1,24 @@
+@import "../../themes/base/meegotouch/libmeegotouchviews/style/mcontentitemstyle.css";
+//@import "../../libmeegotouchviews/style/commonlayouts/commonlabelstyle.css";
+
+@const CTITLE_FONT:    $FONT_FAMILY bold 26;
+@const CTITLE_M_TOP:    0.8mm;
+@const CTITLE_COLOR:          #000000;
+
+#KarinCommonTitle {
+	font:          $CTITLE_FONT;
+	//font: $FONT_DEFAULT;
+	color:         $CTITLE_COLOR;
+	margin-top:    $CTITLE_M_TOP;
+	margin-bottom: 0;
+	margin-left:   $INDENT_DEFAULT;
+	margin-right:  $INDENT_DEFAULT;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+MContentItemStyle {    
+	title-object-name: "KarinCommonTitle";
+}
+
+

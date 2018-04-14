@@ -1,0 +1,55 @@
+karinchmviewer (1.5.0harmattan3) unstable; urgency=low
+
+  * Forbid to open link when sliding on text browser.  
+  * Add Double-Click to zoom.
+  * Fixed filter index list of chm file.
+  * Other optmizes.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Wed, 07 Jun 2017 18:42:18 +0800
+
+karinchmviewer (1.5.0harmattan1) unstable; urgency=low
+
+  * Add slide and select mode in QTextBrowser desktop widget for slide gesture on mobile.
+  * Other optmizes.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Tue, 06 Jun 2017 10:22:18 +0800
+
+karinchmviewer (1.2.0harmattan3) unstable; urgency=low
+
+  * Change view page toolbar to one line.
+  * Fixed view page layout exception when current page label is too long.
+  * Fixed view page toolbar show full size.
+  * Support to collapse or expand all nodes in content tree page.
+  * Add change show fullscreen or normal.
+  * Fixed title shows exception in bookmark dialog.
+  * Other optmizes.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  thu, 25 Jun 2015 10:54:18 +0800
+
+karinchmviewer (1.1.2harmattan1) unstable; urgency=low
+
+  * Optmized layout, make QTextBrowser to bigger.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Fri, 19 Jun 2015 14:38:18 +0800
+
+karinchmviewer (1.1.1harmattan1) unstable; urgency=low
+
+  * Fixed bug that heap memory is not released.
+  * optimized boot with command-line arguments or without command-line arguments.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Thu, 18 Jun 2015 21:11:18 +0800
+
+karinchmviewer (1.0.1harmattan1) unstable; urgency=low
+
+  * Allow multi-instance.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Thu, 18 Jun 2015 12:11:18 +0800
+
+karinchmviewer (1.0.0harmattan1) unstable; urgency=low
+
+  * Changed package name: karinchmviewer.
+  * Using meegotouch instead of qml.
+  * Add bookmark, favorite, history record.
+  * Using QTextBrowser instead of WebView qml component.
+
+ -- Karin Zhao <beyondk2000@gmail.com>  Sun, 14 Jun 2015 09:21:55 +0800
